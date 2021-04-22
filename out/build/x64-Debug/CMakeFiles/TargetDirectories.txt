@@ -1,0 +1,9 @@
+C:/Users/sr996/source/repos/darknet/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/sr996/source/repos/darknet/out/build/x64-Debug/CMakeFiles/dark.dir
+C:/Users/sr996/source/repos/darknet/out/build/x64-Debug/CMakeFiles/uselib.dir
+C:/Users/sr996/source/repos/darknet/out/build/x64-Debug/CMakeFiles/uselib_track.dir
+C:/Users/sr996/source/repos/darknet/out/build/x64-Debug/CMakeFiles/install/local.dir
+C:/Users/sr996/source/repos/darknet/out/build/x64-Debug/CMakeFiles/install.dir
+C:/Users/sr996/source/repos/darknet/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/sr996/source/repos/darknet/out/build/x64-Debug/CMakeFiles/darknet.dir
+C:/Users/sr996/source/repos/darknet/out/build/x64-Debug/CMakeFiles/list_install_components.dir

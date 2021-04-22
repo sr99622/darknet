@@ -1,0 +1,633 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "uselib_track.exe"
+		},
+		{
+			"path" : "uselib_track.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"install",
+			"link_directories",
+			"find_package",
+			"target_link_libraries",
+			"target_compile_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"C:/Users/sr996/opencv/build/OpenCVConfig.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 373,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 513,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 163,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 151,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 478,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 485,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 491,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 492,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 479,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 480,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 484,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/wd4013 /wd4018 /wd4028 /wd4047 /wd4068 /wd4090 /wd4101 /wd4113 /wd4133 /wd4190 /wd4244 /wd4267 /wd4305 /wd4477 /wd4996 /wd4819 /fp:fast  /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-openmp"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "CUDNN"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "GPU"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "OPENCV"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "TRACK_OPTFLOW=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "USE_CMAKE_LIBS"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "_CRT_RAND_S"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "_USE_MATH_DEFINES"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 12,
+					"path" : "C:/Users/sr996/source/repos/darknet/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sr996/source/repos/darknet/src"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/sr996/source/repos/darknet/3rdparty/stb/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.2/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv/build"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv_contrib/modules/cudev/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv/modules/core/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv_contrib/modules/cudaarithm/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv/modules/flann/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv/modules/imgproc/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv_contrib/modules/intensity_transform/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv/modules/ml/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv_contrib/modules/phase_unwrapping/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv_contrib/modules/plot/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv_contrib/modules/quality/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv_contrib/modules/reg/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv_contrib/modules/surface_matching/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv_contrib/modules/cudafilters/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv_contrib/modules/cudaimgproc/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv_contrib/modules/cudawarping/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv/modules/dnn/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv_contrib/modules/dnn_superres/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv/modules/features2d/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv_contrib/modules/fuzzy/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv_contrib/modules/hfs/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv/modules/imgcodecs/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv_contrib/modules/line_descriptor/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv/modules/photo/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv_contrib/modules/saliency/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv_contrib/modules/text/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv/modules/videoio/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv_contrib/modules/xphoto/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv/modules/calib3d/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv_contrib/modules/cudacodec/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv_contrib/modules/cudafeatures2d/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv_contrib/modules/cudastereo/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv_contrib/modules/datasets/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv/modules/highgui/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv_contrib/modules/mcc/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv/modules/objdetect/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv_contrib/modules/rapid/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv_contrib/modules/rgbd/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv_contrib/modules/shape/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv_contrib/modules/structured_light/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv/modules/video/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv_contrib/modules/xfeatures2d/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv_contrib/modules/ximgproc/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv_contrib/modules/xobjdetect/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv_contrib/modules/aruco/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv_contrib/modules/bgsegm/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv_contrib/modules/bioinspired/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv_contrib/modules/ccalib/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv_contrib/modules/cudabgsegm/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv_contrib/modules/cudalegacy/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv_contrib/modules/cudaobjdetect/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv_contrib/modules/dnn_objdetect/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv_contrib/modules/dpm/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv_contrib/modules/face/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv/modules/gapi/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv_contrib/modules/optflow/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv/modules/stitching/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv_contrib/modules/tracking/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv_contrib/modules/cudaoptflow/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv_contrib/modules/stereo/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv_contrib/modules/superres/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv_contrib/modules/videostab/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv/modules/world/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv_contrib/modules/img_hash/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/opencv/modules/ts/include"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Users/sr996/source/repos/darknet/3rdparty/pthreads/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					6
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 6,
+			"id" : "dark::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "uselib_track::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "C:/Users/sr996/source/repos/darknet"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Users/sr996/Source/Repos/darknet/out/install/x64-Debug"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/wd4013 /wd4018 /wd4028 /wd4047 /wd4068 /wd4090 /wd4101 /wd4113 /wd4133 /wd4190 /wd4244 /wd4267 /wd4305 /wd4477 /wd4996 /wd4819 /fp:fast  /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-LIBPATH:C:\\PROGRA~1\\NVIDIA~2\\CUDA\\v11.2\\lib\\x64",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "darknetd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "C:\\Users\\sr996\\opencv\\build\\lib\\Debug\\opencv_world451d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "C:\\Users\\sr996\\opencv\\build\\lib\\Debug\\opencv_world451d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "C:\\Users\\sr996\\opencv\\build\\lib\\Debug\\opencv_world451d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "..\\..\\..\\3rdparty\\pthreads\\lib\\pthreadVC2.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "wsock32.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "ws2_32.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "uselib_track",
+	"nameOnDisk" : "uselib_track.exe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/yolo_console_dll.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

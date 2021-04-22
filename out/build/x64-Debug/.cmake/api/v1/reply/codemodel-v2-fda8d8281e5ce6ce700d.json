@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Darknet",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "dark::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dark-Debug-b5b91275a444f631dee2.json",
+					"name" : "dark",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "darknet::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-darknet-Debug-bec9252aa904d51573c2.json",
+					"name" : "darknet",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uselib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uselib-Debug-acc128c0792e4be5a38a.json",
+					"name" : "uselib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uselib_track::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uselib_track-Debug-8939631b780d17b08aad.json",
+					"name" : "uselib_track",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/sr996/source/repos/darknet/out/build/x64-Debug",
+		"source" : "C:/Users/sr996/source/repos/darknet"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}

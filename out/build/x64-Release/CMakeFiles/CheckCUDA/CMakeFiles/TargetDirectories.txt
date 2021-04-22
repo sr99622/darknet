@@ -1,0 +1,2 @@
+C:/Users/sr996/source/repos/darknet/out/build/x64-Release/CMakeFiles/CheckCUDA/CMakeFiles/edit_cache.dir
+C:/Users/sr996/source/repos/darknet/out/build/x64-Release/CMakeFiles/CheckCUDA/CMakeFiles/rebuild_cache.dir
