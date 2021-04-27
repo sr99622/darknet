@@ -17,6 +17,7 @@ pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
 
 list *get_paths(char *filename)
 {
+    printf("get paths from: %s\n", filename);
     char *path;
     FILE *file = fopen(filename, "r");
     if(!file) file_error(filename);

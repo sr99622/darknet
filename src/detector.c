@@ -25,10 +25,15 @@ static int coco_ids[] = { 1,2,3,4,5,6,7,8,9,10,11,13,14,15,16,17,18,19,20,21,22,
 
 void train_detector(char *datacfg, char *cfgfile, char *weightfile, int *gpus, int ngpus, int clear, int dont_show, int calc_map, int mjpeg_port, int show_imgs, int benchmark_layers, char* chart_path)
 {
+    printf("datacfg: %s  cfgfile: %s  weightfile: %s\n", datacfg, cfgfile, weightfile);
     list *options = read_data_cfg(datacfg);
     char *train_images = option_find_str(options, "train", "data/train.txt");
     char *valid_images = option_find_str(options, "valid", train_images);
     char *backup_directory = option_find_str(options, "backup", "/backup/");
+    printf("train_images: %s\n", train_images);
+    printf("valid_images: %s\n", valid_images);
+    printf("backup_directory: %s\n", backup_directory);
+    printf("calc_map: %d\n", calc_map);
 
     network net_map;
     if (calc_map) {
@@ -116,6 +121,8 @@ void train_detector(char *datacfg, char *cfgfile, char *weightfile, int *gpus, i
     list *plist = get_paths(train_images);
     int train_images_num = plist->size;
     char **paths = (char **)list_to_array(plist);
+
+    printf("path 0: %s\n", paths[0]);
 
     const int init_w = net.w;
     const int init_h = net.h;
@@ -246,6 +253,7 @@ void train_detector(char *datacfg, char *cfgfile, char *weightfile, int *gpus, i
             }
             net = nets[0];
         }
+
         double time = what_time_is_it_now();
         pthread_join(load_thread, 0);
         train = buffer;
@@ -255,6 +263,7 @@ void train_detector(char *datacfg, char *cfgfile, char *weightfile, int *gpus, i
             printf(" sequential_subdivisions = %d, sequence = %d \n", net.sequential_subdivisions, get_sequence_value(net));
         }
         load_thread = load_data(args);
+
         //wait_key_cv(500);
 
         /*
@@ -313,6 +322,21 @@ void train_detector(char *datacfg, char *cfgfile, char *weightfile, int *gpus, i
             else fprintf(stderr, "\n Tensor Cores are used.\n");
             fflush(stderr);
         }
+        long SEC_PER_DAY = 86400;
+        long SEC_PER_HOUR = 3600;
+        long SEC_PER_MIN = 60;
+        double seconds = what_time_is_it_now();
+        long hms = (long)seconds % SEC_PER_DAY;
+        hms = (hms + SEC_PER_DAY) % SEC_PER_DAY;
+
+        // Tear apart hms into h:m:s
+        int hour = hms / SEC_PER_HOUR;
+        int minute = (hms % SEC_PER_HOUR) / SEC_PER_MIN;
+        int sec = (hms % SEC_PER_HOUR) % SEC_PER_MIN; // or hms % SEC_PER_MIN
+
+        printf("Current time (GMT): %d:%02d:%02d\n", hour, minute, sec);
+
+
         printf("\n %d: %f, %f avg loss, %f rate, %lf seconds, %d images, %f hours left\n", iteration, loss, avg_loss, get_current_rate(net), (what_time_is_it_now() - time), iteration*imgs, avg_time);
         fflush(stdout);
 
